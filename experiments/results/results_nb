@@ -1,0 +1,1282 @@
+[Command: python -u D:\IS\stracktraces\Classifers\nb_classifier_v2.py]
+aspectj_top1.csv
+******************************
+Filename: aspectj_top1.csv
+Features: ['Filename']
+Precision: 0.50
+Recall: 0.96
+F1 Score: 0.66
+Accuracy: 0.54
+Confusion Matrix(tn, fp, fn, tp) : 77 350 13 355
+******************************
+aspectj_top1.csv
+******************************
+Filename: aspectj_top1.csv
+Features: ['Filename', 'Method name']
+Precision: 0.52
+Recall: 0.93
+F1 Score: 0.67
+Accuracy: 0.57
+Confusion Matrix(tn, fp, fn, tp) : 109 318 25 343
+******************************
+aspectj_top1.csv
+******************************
+Filename: aspectj_top1.csv
+Features: ['Filename', 'Exception']
+Precision: 0.59
+Recall: 0.97
+F1 Score: 0.73
+Accuracy: 0.67
+Confusion Matrix(tn, fp, fn, tp) : 175 252 11 357
+******************************
+aspectj_top1.csv
+******************************
+Filename: aspectj_top1.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.59
+Recall: 0.94
+F1 Score: 0.72
+Accuracy: 0.67
+Confusion Matrix(tn, fp, fn, tp) : 186 241 22 346
+******************************
+aspectj_top10.csv
+******************************
+Filename: aspectj_top10.csv
+Features: ['Filename']
+Precision: 0.88
+Recall: 0.25
+F1 Score: 0.38
+Accuracy: 0.43
+Confusion Matrix(tn, fp, fn, tp) : 197 20 436 142
+******************************
+aspectj_top10.csv
+******************************
+Filename: aspectj_top10.csv
+Features: ['Filename', 'Method name']
+Precision: 0.87
+Recall: 0.34
+F1 Score: 0.49
+Accuracy: 0.48
+Confusion Matrix(tn, fp, fn, tp) : 187 30 383 195
+******************************
+aspectj_top10.csv
+******************************
+Filename: aspectj_top10.csv
+Features: ['Filename', 'Exception']
+Precision: 0.92
+Recall: 0.42
+F1 Score: 0.58
+Accuracy: 0.56
+Confusion Matrix(tn, fp, fn, tp) : 197 20 333 245
+******************************
+aspectj_top10.csv
+******************************
+Filename: aspectj_top10.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.90
+Recall: 0.49
+F1 Score: 0.63
+Accuracy: 0.59
+Confusion Matrix(tn, fp, fn, tp) : 187 30 297 281
+******************************
+aspectj_top3.csv
+******************************
+Filename: aspectj_top3.csv
+Features: ['Filename']
+Precision: 0.82
+Recall: 0.23
+F1 Score: 0.36
+Accuracy: 0.46
+Confusion Matrix(tn, fp, fn, tp) : 241 27 405 122
+******************************
+aspectj_top3.csv
+******************************
+Filename: aspectj_top3.csv
+Features: ['Filename', 'Method name']
+Precision: 0.78
+Recall: 0.28
+F1 Score: 0.42
+Accuracy: 0.47
+Confusion Matrix(tn, fp, fn, tp) : 227 41 378 149
+******************************
+aspectj_top3.csv
+******************************
+Filename: aspectj_top3.csv
+Features: ['Filename', 'Exception']
+Precision: 0.91
+Recall: 0.44
+F1 Score: 0.60
+Accuracy: 0.60
+Confusion Matrix(tn, fp, fn, tp) : 246 22 293 234
+******************************
+aspectj_top3.csv
+******************************
+Filename: aspectj_top3.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.87
+Recall: 0.44
+F1 Score: 0.58
+Accuracy: 0.58
+Confusion Matrix(tn, fp, fn, tp) : 234 34 297 230
+******************************
+aspectj_top5.csv
+******************************
+Filename: aspectj_top5.csv
+Features: ['Filename']
+Precision: 0.84
+Recall: 0.23
+F1 Score: 0.36
+Accuracy: 0.43
+Confusion Matrix(tn, fp, fn, tp) : 213 24 432 126
+******************************
+aspectj_top5.csv
+******************************
+Filename: aspectj_top5.csv
+Features: ['Filename', 'Method name']
+Precision: 0.82
+Recall: 0.31
+F1 Score: 0.45
+Accuracy: 0.47
+Confusion Matrix(tn, fp, fn, tp) : 199 38 385 173
+******************************
+aspectj_top5.csv
+******************************
+Filename: aspectj_top5.csv
+Features: ['Filename', 'Exception']
+Precision: 0.91
+Recall: 0.41
+F1 Score: 0.57
+Accuracy: 0.56
+Confusion Matrix(tn, fp, fn, tp) : 215 22 328 230
+******************************
+aspectj_top5.csv
+******************************
+Filename: aspectj_top5.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.89
+Recall: 0.47
+F1 Score: 0.61
+Accuracy: 0.58
+Confusion Matrix(tn, fp, fn, tp) : 203 34 296 262
+******************************
+birt_top1.csv
+******************************
+Filename: birt_top1.csv
+Features: ['Filename']
+Precision: 0.25
+Recall: 0.94
+F1 Score: 0.39
+Accuracy: 0.37
+Confusion Matrix(tn, fp, fn, tp) : 720 2618 54 867
+******************************
+birt_top1.csv
+******************************
+Filename: birt_top1.csv
+Features: ['Filename', 'Method name']
+Precision: 0.26
+Recall: 0.89
+F1 Score: 0.40
+Accuracy: 0.42
+Confusion Matrix(tn, fp, fn, tp) : 981 2357 99 822
+******************************
+birt_top1.csv
+******************************
+Filename: birt_top1.csv
+Features: ['Filename', 'Exception']
+Precision: 0.35
+Recall: 0.94
+F1 Score: 0.51
+Accuracy: 0.61
+Confusion Matrix(tn, fp, fn, tp) : 1708 1630 52 869
+******************************
+birt_top1.csv
+******************************
+Filename: birt_top1.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.36
+Recall: 0.90
+F1 Score: 0.51
+Accuracy: 0.63
+Confusion Matrix(tn, fp, fn, tp) : 1844 1494 92 829
+******************************
+birt_top10.csv
+******************************
+Filename: birt_top10.csv
+Features: ['Filename']
+Precision: 0.52
+Recall: 0.93
+F1 Score: 0.67
+Accuracy: 0.58
+Confusion Matrix(tn, fp, fn, tp) : 669 1655 138 1797
+******************************
+birt_top10.csv
+******************************
+Filename: birt_top10.csv
+Features: ['Filename', 'Method name']
+Precision: 0.55
+Recall: 0.90
+F1 Score: 0.68
+Accuracy: 0.62
+Confusion Matrix(tn, fp, fn, tp) : 882 1442 191 1744
+******************************
+birt_top10.csv
+******************************
+Filename: birt_top10.csv
+Features: ['Filename', 'Exception']
+Precision: 0.57
+Recall: 0.93
+F1 Score: 0.71
+Accuracy: 0.66
+Confusion Matrix(tn, fp, fn, tp) : 986 1338 126 1809
+******************************
+birt_top10.csv
+******************************
+Filename: birt_top10.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.60
+Recall: 0.91
+F1 Score: 0.72
+Accuracy: 0.68
+Confusion Matrix(tn, fp, fn, tp) : 1142 1182 167 1768
+******************************
+birt_top3.csv
+******************************
+Filename: birt_top3.csv
+Features: ['Filename']
+Precision: 0.40
+Recall: 0.97
+F1 Score: 0.56
+Accuracy: 0.45
+Confusion Matrix(tn, fp, fn, tp) : 429 2283 49 1498
+******************************
+birt_top3.csv
+******************************
+Filename: birt_top3.csv
+Features: ['Filename', 'Method name']
+Precision: 0.41
+Recall: 0.94
+F1 Score: 0.57
+Accuracy: 0.49
+Confusion Matrix(tn, fp, fn, tp) : 623 2089 89 1458
+******************************
+birt_top3.csv
+******************************
+Filename: birt_top3.csv
+Features: ['Filename', 'Exception']
+Precision: 0.45
+Recall: 0.97
+F1 Score: 0.62
+Accuracy: 0.57
+Confusion Matrix(tn, fp, fn, tp) : 907 1805 47 1500
+******************************
+birt_top3.csv
+******************************
+Filename: birt_top3.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.47
+Recall: 0.95
+F1 Score: 0.63
+Accuracy: 0.59
+Confusion Matrix(tn, fp, fn, tp) : 1038 1674 82 1465
+******************************
+birt_top5.csv
+******************************
+Filename: birt_top5.csv
+Features: ['Filename']
+Precision: 0.48
+Recall: 0.95
+F1 Score: 0.64
+Accuracy: 0.54
+Confusion Matrix(tn, fp, fn, tp) : 550 1890 84 1735
+******************************
+birt_top5.csv
+******************************
+Filename: birt_top5.csv
+Features: ['Filename', 'Method name']
+Precision: 0.49
+Recall: 0.95
+F1 Score: 0.65
+Accuracy: 0.56
+Confusion Matrix(tn, fp, fn, tp) : 660 1780 100 1719
+******************************
+birt_top5.csv
+******************************
+Filename: birt_top5.csv
+Features: ['Filename', 'Exception']
+Precision: 0.54
+Recall: 0.95
+F1 Score: 0.69
+Accuracy: 0.63
+Confusion Matrix(tn, fp, fn, tp) : 958 1482 83 1736
+******************************
+birt_top5.csv
+******************************
+Filename: birt_top5.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.55
+Recall: 0.95
+F1 Score: 0.69
+Accuracy: 0.64
+Confusion Matrix(tn, fp, fn, tp) : 1010 1430 91 1728
+******************************
+cassandra_top1.csv
+******************************
+Filename: cassandra_top1.csv
+Features: ['Filename']
+Precision: 0.26
+Recall: 0.89
+F1 Score: 0.40
+Accuracy: 0.36
+Confusion Matrix(tn, fp, fn, tp) : 423 1716 73 590
+******************************
+cassandra_top1.csv
+******************************
+Filename: cassandra_top1.csv
+Features: ['Filename', 'Method name']
+Precision: 0.26
+Recall: 0.79
+F1 Score: 0.39
+Accuracy: 0.42
+Confusion Matrix(tn, fp, fn, tp) : 657 1482 137 526
+******************************
+cassandra_top1.csv
+******************************
+Filename: cassandra_top1.csv
+Features: ['Filename', 'Exception']
+Precision: 0.29
+Recall: 0.90
+F1 Score: 0.44
+Accuracy: 0.46
+Confusion Matrix(tn, fp, fn, tp) : 702 1437 68 595
+******************************
+cassandra_top1.csv
+******************************
+Filename: cassandra_top1.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.30
+Recall: 0.81
+F1 Score: 0.43
+Accuracy: 0.50
+Confusion Matrix(tn, fp, fn, tp) : 872 1267 128 535
+******************************
+cassandra_top10.csv
+******************************
+Filename: cassandra_top10.csv
+Features: ['Filename']
+Precision: 0.83
+Recall: 0.12
+F1 Score: 0.20
+Accuracy: 0.44
+Confusion Matrix(tn, fp, fn, tp) : 1029 40 1532 201
+******************************
+cassandra_top10.csv
+******************************
+Filename: cassandra_top10.csv
+Features: ['Filename', 'Method name']
+Precision: 0.77
+Recall: 0.20
+F1 Score: 0.31
+Accuracy: 0.47
+Confusion Matrix(tn, fp, fn, tp) : 970 99 1393 340
+******************************
+cassandra_top10.csv
+******************************
+Filename: cassandra_top10.csv
+Features: ['Filename', 'Exception']
+Precision: 0.89
+Recall: 0.18
+F1 Score: 0.31
+Accuracy: 0.48
+Confusion Matrix(tn, fp, fn, tp) : 1030 39 1413 320
+******************************
+cassandra_top10.csv
+******************************
+Filename: cassandra_top10.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.82
+Recall: 0.24
+F1 Score: 0.38
+Accuracy: 0.50
+Confusion Matrix(tn, fp, fn, tp) : 979 90 1309 424
+******************************
+cassandra_top3.csv
+******************************
+Filename: cassandra_top3.csv
+Features: ['Filename']
+Precision: 0.45
+Recall: 0.93
+F1 Score: 0.61
+Accuracy: 0.49
+Confusion Matrix(tn, fp, fn, tp) : 235 1358 79 1130
+******************************
+cassandra_top3.csv
+******************************
+Filename: cassandra_top3.csv
+Features: ['Filename', 'Method name']
+Precision: 0.46
+Recall: 0.89
+F1 Score: 0.60
+Accuracy: 0.49
+Confusion Matrix(tn, fp, fn, tp) : 300 1293 128 1081
+******************************
+cassandra_top3.csv
+******************************
+Filename: cassandra_top3.csv
+Features: ['Filename', 'Exception']
+Precision: 0.49
+Recall: 0.94
+F1 Score: 0.64
+Accuracy: 0.54
+Confusion Matrix(tn, fp, fn, tp) : 383 1210 68 1141
+******************************
+cassandra_top3.csv
+******************************
+Filename: cassandra_top3.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.48
+Recall: 0.90
+F1 Score: 0.63
+Accuracy: 0.54
+Confusion Matrix(tn, fp, fn, tp) : 429 1164 123 1086
+******************************
+cassandra_top5.csv
+******************************
+Filename: cassandra_top5.csv
+Features: ['Filename']
+Precision: 0.71
+Recall: 0.17
+F1 Score: 0.28
+Accuracy: 0.52
+Confusion Matrix(tn, fp, fn, tp) : 1213 103 1231 255
+******************************
+cassandra_top5.csv
+******************************
+Filename: cassandra_top5.csv
+Features: ['Filename', 'Method name']
+Precision: 0.72
+Recall: 0.19
+F1 Score: 0.30
+Accuracy: 0.53
+Confusion Matrix(tn, fp, fn, tp) : 1205 111 1201 285
+******************************
+cassandra_top5.csv
+******************************
+Filename: cassandra_top5.csv
+Features: ['Filename', 'Exception']
+Precision: 0.72
+Recall: 0.39
+F1 Score: 0.51
+Accuracy: 0.60
+Confusion Matrix(tn, fp, fn, tp) : 1095 221 906 580
+******************************
+cassandra_top5.csv
+******************************
+Filename: cassandra_top5.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.75
+Recall: 0.24
+F1 Score: 0.36
+Accuracy: 0.55
+Confusion Matrix(tn, fp, fn, tp) : 1202 114 1136 350
+******************************
+eclipse_platform_ui_top1.csv
+******************************
+Filename: eclipse_platform_ui_top1.csv
+Features: ['Filename']
+Precision: 0.26
+Recall: 0.98
+F1 Score: 0.42
+Accuracy: 0.33
+Confusion Matrix(tn, fp, fn, tp) : 492 3481 27 1246
+******************************
+eclipse_platform_ui_top1.csv
+******************************
+Filename: eclipse_platform_ui_top1.csv
+Features: ['Filename', 'Method name']
+Precision: 0.27
+Recall: 0.94
+F1 Score: 0.42
+Accuracy: 0.37
+Confusion Matrix(tn, fp, fn, tp) : 749 3224 81 1192
+******************************
+eclipse_platform_ui_top1.csv
+******************************
+Filename: eclipse_platform_ui_top1.csv
+Features: ['Filename', 'Exception']
+Precision: 0.35
+Recall: 0.98
+F1 Score: 0.52
+Accuracy: 0.56
+Confusion Matrix(tn, fp, fn, tp) : 1674 2299 27 1246
+******************************
+eclipse_platform_ui_top1.csv
+******************************
+Filename: eclipse_platform_ui_top1.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.35
+Recall: 0.94
+F1 Score: 0.51
+Accuracy: 0.57
+Confusion Matrix(tn, fp, fn, tp) : 1790 2183 80 1193
+******************************
+eclipse_platform_ui_top10.csv
+******************************
+Filename: eclipse_platform_ui_top10.csv
+Features: ['Filename']
+Precision: 0.91
+Recall: 0.11
+F1 Score: 0.20
+Accuracy: 0.45
+Confusion Matrix(tn, fp, fn, tp) : 1996 37 2845 368
+******************************
+eclipse_platform_ui_top10.csv
+******************************
+Filename: eclipse_platform_ui_top10.csv
+Features: ['Filename', 'Method name']
+Precision: 0.84
+Recall: 0.15
+F1 Score: 0.25
+Accuracy: 0.46
+Confusion Matrix(tn, fp, fn, tp) : 1940 93 2742 471
+******************************
+eclipse_platform_ui_top10.csv
+******************************
+Filename: eclipse_platform_ui_top10.csv
+Features: ['Filename', 'Exception']
+Precision: 0.94
+Recall: 0.17
+F1 Score: 0.29
+Accuracy: 0.49
+Confusion Matrix(tn, fp, fn, tp) : 1998 35 2666 547
+******************************
+eclipse_platform_ui_top10.csv
+******************************
+Filename: eclipse_platform_ui_top10.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.89
+Recall: 0.20
+F1 Score: 0.32
+Accuracy: 0.49
+Confusion Matrix(tn, fp, fn, tp) : 1952 81 2577 636
+******************************
+eclipse_platform_ui_top3.csv
+******************************
+Filename: eclipse_platform_ui_top3.csv
+Features: ['Filename']
+Precision: 0.47
+Recall: 0.97
+F1 Score: 0.63
+Accuracy: 0.49
+Confusion Matrix(tn, fp, fn, tp) : 309 2590 81 2266
+******************************
+eclipse_platform_ui_top3.csv
+******************************
+Filename: eclipse_platform_ui_top3.csv
+Features: ['Filename', 'Method name']
+Precision: 0.47
+Recall: 0.95
+F1 Score: 0.63
+Accuracy: 0.50
+Confusion Matrix(tn, fp, fn, tp) : 364 2535 113 2234
+******************************
+eclipse_platform_ui_top3.csv
+******************************
+Filename: eclipse_platform_ui_top3.csv
+Features: ['Filename', 'Exception']
+Precision: 0.49
+Recall: 0.96
+F1 Score: 0.65
+Accuracy: 0.54
+Confusion Matrix(tn, fp, fn, tp) : 547 2352 83 2264
+******************************
+eclipse_platform_ui_top3.csv
+******************************
+Filename: eclipse_platform_ui_top3.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.49
+Recall: 0.95
+F1 Score: 0.65
+Accuracy: 0.53
+Confusion Matrix(tn, fp, fn, tp) : 569 2330 119 2228
+******************************
+eclipse_platform_ui_top5.csv
+******************************
+Filename: eclipse_platform_ui_top5.csv
+Features: ['Filename']
+Precision: 0.84
+Recall: 0.12
+F1 Score: 0.21
+Accuracy: 0.50
+Confusion Matrix(tn, fp, fn, tp) : 2286 63 2557 340
+******************************
+eclipse_platform_ui_top5.csv
+******************************
+Filename: eclipse_platform_ui_top5.csv
+Features: ['Filename', 'Method name']
+Precision: 0.80
+Recall: 0.15
+F1 Score: 0.25
+Accuracy: 0.51
+Confusion Matrix(tn, fp, fn, tp) : 2242 107 2467 430
+******************************
+eclipse_platform_ui_top5.csv
+******************************
+Filename: eclipse_platform_ui_top5.csv
+Features: ['Filename', 'Exception']
+Precision: 0.90
+Recall: 0.16
+F1 Score: 0.28
+Accuracy: 0.53
+Confusion Matrix(tn, fp, fn, tp) : 2294 55 2423 474
+******************************
+eclipse_platform_ui_top5.csv
+******************************
+Filename: eclipse_platform_ui_top5.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.85
+Recall: 0.19
+F1 Score: 0.31
+Accuracy: 0.53
+Confusion Matrix(tn, fp, fn, tp) : 2254 95 2345 552
+******************************
+hadoop_top1.csv
+******************************
+Filename: hadoop_top1.csv
+Features: ['Filename']
+Precision: 0.51
+Recall: 1.00
+F1 Score: 0.68
+Accuracy: 0.73
+Confusion Matrix(tn, fp, fn, tp) : 55 33 0 35
+******************************
+hadoop_top1.csv
+******************************
+Filename: hadoop_top1.csv
+Features: ['Filename', 'Method name']
+Precision: 0.68
+Recall: 0.97
+F1 Score: 0.80
+Accuracy: 0.86
+Confusion Matrix(tn, fp, fn, tp) : 72 16 1 34
+******************************
+hadoop_top1.csv
+******************************
+Filename: hadoop_top1.csv
+Features: ['Filename', 'Exception']
+Precision: 0.85
+Recall: 1.00
+F1 Score: 0.92
+Accuracy: 0.95
+Confusion Matrix(tn, fp, fn, tp) : 82 6 0 35
+******************************
+hadoop_top1.csv
+******************************
+Filename: hadoop_top1.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.94
+Recall: 0.97
+F1 Score: 0.96
+Accuracy: 0.98
+Confusion Matrix(tn, fp, fn, tp) : 86 2 1 34
+******************************
+hadoop_top10.csv
+******************************
+Filename: hadoop_top10.csv
+Features: ['Filename']
+Precision: 0.81
+Recall: 0.41
+F1 Score: 0.54
+Accuracy: 0.59
+Confusion Matrix(tn, fp, fn, tp) : 42 7 44 30
+******************************
+hadoop_top10.csv
+******************************
+Filename: hadoop_top10.csv
+Features: ['Filename', 'Method name']
+Precision: 0.90
+Recall: 0.51
+F1 Score: 0.66
+Accuracy: 0.67
+Confusion Matrix(tn, fp, fn, tp) : 45 4 36 38
+******************************
+hadoop_top10.csv
+******************************
+Filename: hadoop_top10.csv
+Features: ['Filename', 'Exception']
+Precision: 1.00
+Recall: 0.74
+F1 Score: 0.85
+Accuracy: 0.85
+Confusion Matrix(tn, fp, fn, tp) : 49 0 19 55
+******************************
+hadoop_top10.csv
+******************************
+Filename: hadoop_top10.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.98
+Recall: 0.74
+F1 Score: 0.85
+Accuracy: 0.84
+Confusion Matrix(tn, fp, fn, tp) : 48 1 19 55
+******************************
+hadoop_top3.csv
+******************************
+Filename: hadoop_top3.csv
+Features: ['Filename']
+Precision: 0.49
+Recall: 0.92
+F1 Score: 0.64
+Accuracy: 0.56
+Confusion Matrix(tn, fp, fn, tp) : 21 50 4 48
+******************************
+hadoop_top3.csv
+******************************
+Filename: hadoop_top3.csv
+Features: ['Filename', 'Method name']
+Precision: 0.61
+Recall: 0.88
+F1 Score: 0.72
+Accuracy: 0.71
+Confusion Matrix(tn, fp, fn, tp) : 41 30 6 46
+******************************
+hadoop_top3.csv
+******************************
+Filename: hadoop_top3.csv
+Features: ['Filename', 'Exception']
+Precision: 0.75
+Recall: 0.92
+F1 Score: 0.83
+Accuracy: 0.84
+Confusion Matrix(tn, fp, fn, tp) : 55 16 4 48
+******************************
+hadoop_top3.csv
+******************************
+Filename: hadoop_top3.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.82
+Recall: 0.88
+F1 Score: 0.85
+Accuracy: 0.87
+Confusion Matrix(tn, fp, fn, tp) : 61 10 6 46
+******************************
+hadoop_top5.csv
+******************************
+Filename: hadoop_top5.csv
+Features: ['Filename']
+Precision: 0.58
+Recall: 0.85
+F1 Score: 0.69
+Accuracy: 0.59
+Confusion Matrix(tn, fp, fn, tp) : 18 40 10 55
+******************************
+hadoop_top5.csv
+******************************
+Filename: hadoop_top5.csv
+Features: ['Filename', 'Method name']
+Precision: 0.63
+Recall: 0.92
+F1 Score: 0.75
+Accuracy: 0.67
+Confusion Matrix(tn, fp, fn, tp) : 23 35 5 60
+******************************
+hadoop_top5.csv
+******************************
+Filename: hadoop_top5.csv
+Features: ['Filename', 'Exception']
+Precision: 0.95
+Recall: 0.88
+F1 Score: 0.91
+Accuracy: 0.91
+Confusion Matrix(tn, fp, fn, tp) : 55 3 8 57
+******************************
+hadoop_top5.csv
+******************************
+Filename: hadoop_top5.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.86
+Recall: 0.95
+F1 Score: 0.91
+Accuracy: 0.89
+Confusion Matrix(tn, fp, fn, tp) : 48 10 3 62
+******************************
+hbase_top1.csv
+******************************
+Filename: hbase_top1.csv
+Features: ['Filename']
+Precision: 0.20
+Recall: 0.93
+F1 Score: 0.33
+Accuracy: 0.32
+Confusion Matrix(tn, fp, fn, tp) : 703 3033 58 769
+******************************
+hbase_top1.csv
+******************************
+Filename: hbase_top1.csv
+Features: ['Filename', 'Method name']
+Precision: 0.21
+Recall: 0.83
+F1 Score: 0.34
+Accuracy: 0.40
+Confusion Matrix(tn, fp, fn, tp) : 1150 2586 138 689
+******************************
+hbase_top1.csv
+******************************
+Filename: hbase_top1.csv
+Features: ['Filename', 'Exception']
+Precision: 0.24
+Recall: 0.93
+F1 Score: 0.38
+Accuracy: 0.46
+Confusion Matrix(tn, fp, fn, tp) : 1317 2419 55 772
+******************************
+hbase_top1.csv
+******************************
+Filename: hbase_top1.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.25
+Recall: 0.85
+F1 Score: 0.39
+Accuracy: 0.52
+Confusion Matrix(tn, fp, fn, tp) : 1660 2076 128 699
+******************************
+hbase_top10.csv
+******************************
+Filename: hbase_top10.csv
+Features: ['Filename']
+Precision: 0.89
+Recall: 0.12
+F1 Score: 0.21
+Accuracy: 0.41
+Confusion Matrix(tn, fp, fn, tp) : 1501 46 2661 355
+******************************
+hbase_top10.csv
+******************************
+Filename: hbase_top10.csv
+Features: ['Filename', 'Method name']
+Precision: 0.83
+Recall: 0.19
+F1 Score: 0.31
+Accuracy: 0.44
+Confusion Matrix(tn, fp, fn, tp) : 1424 123 2431 585
+******************************
+hbase_top10.csv
+******************************
+Filename: hbase_top10.csv
+Features: ['Filename', 'Exception']
+Precision: 0.94
+Recall: 0.24
+F1 Score: 0.38
+Accuracy: 0.49
+Confusion Matrix(tn, fp, fn, tp) : 1501 46 2292 724
+******************************
+hbase_top10.csv
+******************************
+Filename: hbase_top10.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.88
+Recall: 0.29
+F1 Score: 0.44
+Accuracy: 0.51
+Confusion Matrix(tn, fp, fn, tp) : 1433 114 2142 874
+******************************
+hbase_top3.csv
+******************************
+Filename: hbase_top3.csv
+Features: ['Filename']
+Precision: 0.46
+Recall: 0.96
+F1 Score: 0.62
+Accuracy: 0.49
+Confusion Matrix(tn, fp, fn, tp) : 345 2252 71 1895
+******************************
+hbase_top3.csv
+******************************
+Filename: hbase_top3.csv
+Features: ['Filename', 'Method name']
+Precision: 0.47
+Recall: 0.92
+F1 Score: 0.62
+Accuracy: 0.51
+Confusion Matrix(tn, fp, fn, tp) : 544 2053 164 1802
+******************************
+hbase_top3.csv
+******************************
+Filename: hbase_top3.csv
+Features: ['Filename', 'Exception']
+Precision: 0.50
+Recall: 0.96
+F1 Score: 0.66
+Accuracy: 0.57
+Confusion Matrix(tn, fp, fn, tp) : 687 1910 70 1896
+******************************
+hbase_top3.csv
+******************************
+Filename: hbase_top3.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.51
+Recall: 0.92
+F1 Score: 0.65
+Accuracy: 0.58
+Confusion Matrix(tn, fp, fn, tp) : 821 1776 154 1812
+******************************
+hbase_top5.csv
+******************************
+Filename: hbase_top5.csv
+Features: ['Filename']
+Precision: 0.58
+Recall: 0.93
+F1 Score: 0.71
+Accuracy: 0.60
+Confusion Matrix(tn, fp, fn, tp) : 450 1667 167 2279
+******************************
+hbase_top5.csv
+******************************
+Filename: hbase_top5.csv
+Features: ['Filename', 'Method name']
+Precision: 0.73
+Recall: 0.22
+F1 Score: 0.33
+Accuracy: 0.54
+Confusion Matrix(tn, fp, fn, tp) : 1921 196 1920 526
+******************************
+hbase_top5.csv
+******************************
+Filename: hbase_top5.csv
+Features: ['Filename', 'Exception']
+Precision: 0.62
+Recall: 0.94
+F1 Score: 0.75
+Accuracy: 0.66
+Confusion Matrix(tn, fp, fn, tp) : 718 1399 146 2300
+******************************
+hbase_top5.csv
+******************************
+Filename: hbase_top5.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.81
+Recall: 0.32
+F1 Score: 0.46
+Accuracy: 0.59
+Confusion Matrix(tn, fp, fn, tp) : 1934 183 1671 775
+******************************
+jdt_top1.csv
+******************************
+Filename: jdt_top1.csv
+Features: ['Filename']
+Precision: 0.24
+Recall: 0.96
+F1 Score: 0.39
+Accuracy: 0.32
+Confusion Matrix(tn, fp, fn, tp) : 824 5098 67 1651
+******************************
+jdt_top1.csv
+******************************
+Filename: jdt_top1.csv
+Features: ['Filename', 'Method name']
+Precision: 0.25
+Recall: 0.93
+F1 Score: 0.39
+Accuracy: 0.36
+Confusion Matrix(tn, fp, fn, tp) : 1156 4766 123 1595
+******************************
+jdt_top1.csv
+******************************
+Filename: jdt_top1.csv
+Features: ['Filename', 'Exception']
+Precision: 0.34
+Recall: 0.96
+F1 Score: 0.50
+Accuracy: 0.57
+Confusion Matrix(tn, fp, fn, tp) : 2717 3205 66 1652
+******************************
+jdt_top1.csv
+******************************
+Filename: jdt_top1.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.35
+Recall: 0.93
+F1 Score: 0.51
+Accuracy: 0.59
+Confusion Matrix(tn, fp, fn, tp) : 2920 3002 121 1597
+******************************
+jdt_top10.csv
+******************************
+Filename: jdt_top10.csv
+Features: ['Filename']
+Precision: 0.88
+Recall: 0.12
+F1 Score: 0.22
+Accuracy: 0.46
+Confusion Matrix(tn, fp, fn, tp) : 2954 77 4043 566
+******************************
+jdt_top10.csv
+******************************
+Filename: jdt_top10.csv
+Features: ['Filename', 'Method name']
+Precision: 0.84
+Recall: 0.15
+F1 Score: 0.25
+Accuracy: 0.47
+Confusion Matrix(tn, fp, fn, tp) : 2904 127 3933 676
+******************************
+jdt_top10.csv
+******************************
+Filename: jdt_top10.csv
+Features: ['Filename', 'Exception']
+Precision: 0.90
+Recall: 0.15
+F1 Score: 0.25
+Accuracy: 0.48
+Confusion Matrix(tn, fp, fn, tp) : 2959 72 3937 672
+******************************
+jdt_top10.csv
+******************************
+Filename: jdt_top10.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.87
+Recall: 0.17
+F1 Score: 0.28
+Accuracy: 0.48
+Confusion Matrix(tn, fp, fn, tp) : 2915 116 3841 768
+******************************
+jdt_top3.csv
+******************************
+Filename: jdt_top3.csv
+Features: ['Filename']
+Precision: 0.49
+Recall: 0.97
+F1 Score: 0.65
+Accuracy: 0.52
+Confusion Matrix(tn, fp, fn, tp) : 480 3590 113 3457
+******************************
+jdt_top3.csv
+******************************
+Filename: jdt_top3.csv
+Features: ['Filename', 'Method name']
+Precision: 0.50
+Recall: 0.95
+F1 Score: 0.65
+Accuracy: 0.53
+Confusion Matrix(tn, fp, fn, tp) : 668 3402 184 3386
+******************************
+jdt_top3.csv
+******************************
+Filename: jdt_top3.csv
+Features: ['Filename', 'Exception']
+Precision: 0.51
+Recall: 0.97
+F1 Score: 0.67
+Accuracy: 0.55
+Confusion Matrix(tn, fp, fn, tp) : 736 3334 111 3459
+******************************
+jdt_top3.csv
+******************************
+Filename: jdt_top3.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.52
+Recall: 0.95
+F1 Score: 0.67
+Accuracy: 0.56
+Confusion Matrix(tn, fp, fn, tp) : 908 3162 178 3392
+******************************
+jdt_top5.csv
+******************************
+Filename: jdt_top5.csv
+Features: ['Filename']
+Precision: 0.81
+Recall: 0.13
+F1 Score: 0.22
+Accuracy: 0.49
+Confusion Matrix(tn, fp, fn, tp) : 3225 127 3746 542
+******************************
+jdt_top5.csv
+******************************
+Filename: jdt_top5.csv
+Features: ['Filename', 'Method name']
+Precision: 0.81
+Recall: 0.15
+F1 Score: 0.25
+Accuracy: 0.50
+Confusion Matrix(tn, fp, fn, tp) : 3198 154 3648 640
+******************************
+jdt_top5.csv
+******************************
+Filename: jdt_top5.csv
+Features: ['Filename', 'Exception']
+Precision: 0.84
+Recall: 0.15
+F1 Score: 0.25
+Accuracy: 0.51
+Confusion Matrix(tn, fp, fn, tp) : 3231 121 3657 631
+******************************
+jdt_top5.csv
+******************************
+Filename: jdt_top5.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.84
+Recall: 0.17
+F1 Score: 0.28
+Accuracy: 0.52
+Confusion Matrix(tn, fp, fn, tp) : 3211 141 3558 730
+******************************
+spring_top1.csv
+******************************
+Filename: spring_top1.csv
+Features: ['Filename']
+Precision: 0.19
+Recall: 0.88
+F1 Score: 0.31
+Accuracy: 0.38
+Confusion Matrix(tn, fp, fn, tp) : 534 1334 41 312
+******************************
+spring_top1.csv
+******************************
+Filename: spring_top1.csv
+Features: ['Filename', 'Method name']
+Precision: 0.20
+Recall: 0.78
+F1 Score: 0.32
+Accuracy: 0.46
+Confusion Matrix(tn, fp, fn, tp) : 751 1117 78 275
+******************************
+spring_top1.csv
+******************************
+Filename: spring_top1.csv
+Features: ['Filename', 'Exception']
+Precision: 0.27
+Recall: 0.92
+F1 Score: 0.42
+Accuracy: 0.60
+Confusion Matrix(tn, fp, fn, tp) : 1004 864 30 323
+******************************
+spring_top1.csv
+******************************
+Filename: spring_top1.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.28
+Recall: 0.82
+F1 Score: 0.42
+Accuracy: 0.64
+Confusion Matrix(tn, fp, fn, tp) : 1127 741 65 288
+******************************
+spring_top10.csv
+******************************
+Filename: spring_top10.csv
+Features: ['Filename']
+Precision: 0.80
+Recall: 0.29
+F1 Score: 0.42
+Accuracy: 0.61
+Confusion Matrix(tn, fp, fn, tp) : 1039 78 789 315
+******************************
+spring_top10.csv
+******************************
+Filename: spring_top10.csv
+Features: ['Filename', 'Method name']
+Precision: 0.76
+Recall: 0.29
+F1 Score: 0.42
+Accuracy: 0.60
+Confusion Matrix(tn, fp, fn, tp) : 1015 102 788 316
+******************************
+spring_top10.csv
+******************************
+Filename: spring_top10.csv
+Features: ['Filename', 'Exception']
+Precision: 0.87
+Recall: 0.44
+F1 Score: 0.58
+Accuracy: 0.69
+Confusion Matrix(tn, fp, fn, tp) : 1047 70 622 482
+******************************
+spring_top10.csv
+******************************
+Filename: spring_top10.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.84
+Recall: 0.43
+F1 Score: 0.57
+Accuracy: 0.68
+Confusion Matrix(tn, fp, fn, tp) : 1030 87 631 473
+******************************
+spring_top3.csv
+******************************
+Filename: spring_top3.csv
+Features: ['Filename']
+Precision: 0.40
+Recall: 0.96
+F1 Score: 0.56
+Accuracy: 0.47
+Confusion Matrix(tn, fp, fn, tp) : 291 1145 33 752
+******************************
+spring_top3.csv
+******************************
+Filename: spring_top3.csv
+Features: ['Filename', 'Method name']
+Precision: 0.41
+Recall: 0.91
+F1 Score: 0.56
+Accuracy: 0.50
+Confusion Matrix(tn, fp, fn, tp) : 388 1048 70 715
+******************************
+spring_top3.csv
+******************************
+Filename: spring_top3.csv
+Features: ['Filename', 'Exception']
+Precision: 0.45
+Recall: 0.96
+F1 Score: 0.62
+Accuracy: 0.58
+Confusion Matrix(tn, fp, fn, tp) : 524 912 29 756
+******************************
+spring_top3.csv
+******************************
+Filename: spring_top3.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.46
+Recall: 0.92
+F1 Score: 0.61
+Accuracy: 0.59
+Confusion Matrix(tn, fp, fn, tp) : 586 850 61 724
+******************************
+spring_top5.csv
+******************************
+Filename: spring_top5.csv
+Features: ['Filename']
+Precision: 0.48
+Recall: 0.95
+F1 Score: 0.64
+Accuracy: 0.53
+Confusion Matrix(tn, fp, fn, tp) : 229 1002 49 941
+******************************
+spring_top5.csv
+******************************
+Filename: spring_top5.csv
+Features: ['Filename', 'Method name']
+Precision: 0.50
+Recall: 0.90
+F1 Score: 0.64
+Accuracy: 0.56
+Confusion Matrix(tn, fp, fn, tp) : 347 884 99 891
+******************************
+spring_top5.csv
+******************************
+Filename: spring_top5.csv
+Features: ['Filename', 'Exception']
+Precision: 0.55
+Recall: 0.96
+F1 Score: 0.70
+Accuracy: 0.63
+Confusion Matrix(tn, fp, fn, tp) : 448 783 39 951
+******************************
+spring_top5.csv
+******************************
+Filename: spring_top5.csv
+Features: ['Filename', 'Method name', 'Exception']
+Precision: 0.56
+Recall: 0.92
+F1 Score: 0.70
+Accuracy: 0.65
+Confusion Matrix(tn, fp, fn, tp) : 525 706 82 908
+******************************
+[Finished in 114.581s]

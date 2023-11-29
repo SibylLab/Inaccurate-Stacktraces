@@ -1,0 +1,387 @@
+svm_result = [
+   {
+      "Metrics":"Precision",
+      "Range":0.54,
+      "Features":"Filename",
+      "Classification":"Top 1"
+   },
+   {
+     "Metrics":"Recall",
+      "Range":0.56,
+     "Features":"Filename",
+     "Classification":"Top 1"
+   },
+   {
+      "Metrics":"F1 Score",
+      "Range":0.56,
+      "Features":"Filename",
+      "Classification":"Top 1"
+   },
+   {
+     "Metrics":"Accuracy",
+      "Range":0.58,
+      "Features":"Filename",
+      "Classification":"Top 1"
+   },
+  {
+     "Metrics":"Precision",
+      "Range":0.52,
+      "Features":"Filename, Method name",
+    "Classification":"Top 1"
+   },
+  {
+     "Metrics":"Recall",
+      "Range":0.54,
+       "Features":"Filename, Method name",
+    "Classification":"Top 1"
+   },
+  {
+     "Metrics":"F1 Score",
+      "Range":0.53,
+       "Features":"Filename, Method name",
+    "Classification":"Top 1"
+   },
+  {
+     "Metrics":"Accuracy",
+      "Range":0.56,
+      "Features":"Filename, Method name",
+    "Classification":"Top 1"
+   },
+{
+     "Metrics":"Precision",
+      "Range":0.67,
+      "Features":"Filename, Exception",
+    "Classification":"Top 1"
+   },
+{
+     "Metrics":"Recall",
+      "Range":0.76,
+      "Features":"Filename, Exception",
+    "Classification":"Top 1"
+   },
+{
+     "Metrics":"F1 Score",
+      "Range":0.71,
+      "Features":"Filename, Exception",
+    "Classification":"Top 1"
+   },
+{
+     "Metrics":"Accuracy",
+      "Range":0.71,
+      "Features":"Filename, Exception",
+    "Classification":"Top 1"
+   },
+{
+     "Metrics":"Precision",
+      "Range":0.64,
+      "Features":"Filename,Method name,Exception",
+    "Classification":"Top 1"
+   },
+{
+     "Metrics":"Recall",
+      "Range":0.73,
+      "Features":"Filename,Method name,Exception",
+    "Classification":"Top 1"
+   },
+{
+     "Metrics":"F1 Score",
+      "Range":0.68,
+      "Features":"Filename,Method name,Exception",
+    "Classification":"Top 1"
+   },
+{
+     "Metrics":"Accuracy",
+      "Range":0.68,
+      "Features":"Filename,Method name,Exception",
+    "Classification":"Top 1"
+   },
+ {
+      "Metrics":"Precision",
+      "Range":0.7,
+      "Features":"Filename",
+      "Classification":"Top 3"
+   },
+   {
+     "Metrics":"Recall",
+      "Range":0.93,
+     "Features":"Filename",
+     "Classification":"Top 3"
+   },
+   {
+      "Metrics":"F1 Score",
+      "Range":0.8,
+      "Features":"Filename",
+      "Classification":"Top 3"
+   },
+   {
+     "Metrics":"Accuracy",
+      "Range":0.69,
+      "Features":"Filename",
+      "Classification":"Top 3"
+   },
+  {
+     "Metrics":"Precision",
+      "Range":0.69,
+      "Features":"Filename, Method name",
+    "Classification":"Top 3"
+   },
+  {
+     "Metrics":"Recall",
+      "Range":0.94,
+       "Features":"Filename, Method name",
+    "Classification":"Top 3"
+   },
+  {
+     "Metrics":"F1 Score",
+      "Range":0.79,
+       "Features":"Filename, Method name",
+    "Classification":"Top 3"
+   },
+  {
+     "Metrics":"Accuracy",
+      "Range":0.68,
+      "Features":"Filename, Method name",
+    "Classification":"Top 3"
+   },
+{
+     "Metrics":"Precision",
+      "Range":0.77,
+      "Features":"Filename, Exception",
+    "Classification":"Top 3"
+   },
+{
+     "Metrics":"Recall",
+      "Range":0.91,
+      "Features":"Filename, Exception",
+    "Classification":"Top 3"
+   },
+{
+     "Metrics":"F1 Score",
+      "Range":0.83,
+      "Features":"Filename, Exception",
+    "Classification":"Top 3"
+   },
+{
+     "Metrics":"Accuracy",
+      "Range":0.76,
+      "Features":"Filename, Exception",
+    "Classification":"Top 3"
+   },
+{
+     "Metrics":"Precision",
+      "Range":0.72,
+      "Features":"Filename,Method name,Exception",
+    "Classification":"Top 3"
+   },
+{
+     "Metrics":"Recall",
+      "Range":0.94,
+      "Features":"Filename,Method name,Exception",
+    "Classification":"Top 3"
+   },
+{
+     "Metrics":"F1 Score",
+      "Range":0.81,
+      "Features":"Filename,Method name,Exception",
+    "Classification":"Top 3"
+   },
+{
+     "Metrics":"Accuracy",
+      "Range":0.71,
+      "Features":"Filename,Method name,Exception",
+    "Classification":"Top 3"
+   },
+ {
+      "Metrics":"Precision",
+      "Range":0.72,
+      "Features":"Filename",
+      "Classification":"Top 5"
+   },
+   {
+     "Metrics":"Recall",
+      "Range":0.94,
+     "Features":"Filename",
+     "Classification":"Top 5"
+   },
+   {
+      "Metrics":"F1 Score",
+      "Range":0.83,
+      "Features":"Filename",
+      "Classification":"Top 5"
+   },
+   {
+     "Metrics":"Accuracy",
+      "Range":0.72,
+      "Features":"Filename",
+      "Classification":"Top 5"
+   },
+  {
+     "Metrics":"Precision",
+      "Range":0.73,
+      "Features":"Filename, Method name",
+    "Classification":"Top 5"
+   },
+  {
+     "Metrics":"Recall",
+      "Range":0.95,
+       "Features":"Filename, Method name",
+    "Classification":"Top 5"
+   },
+  {
+     "Metrics":"F1 Score",
+      "Range":0.83,
+       "Features":"Filename, Method name",
+    "Classification":"Top 5"
+   },
+  {
+     "Metrics":"Accuracy",
+      "Range":0.72,
+      "Features":"Filename, Method name",
+    "Classification":"Top 5"
+   },
+{
+     "Metrics":"Precision",
+      "Range":0.71,
+      "Features":"Filename, Exception",
+    "Classification":"Top 5"
+   },
+{
+     "Metrics":"Recall",
+      "Range":0.96,
+      "Features":"Filename, Exception",
+    "Classification":"Top 5"
+   },
+{
+     "Metrics":"F1 Score",
+      "Range":0.82,
+      "Features":"Filename, Exception",
+    "Classification":"Top 5"
+   },
+{
+     "Metrics":"Accuracy",
+      "Range":0.7,
+      "Features":"Filename, Exception",
+    "Classification":"Top 5"
+   },
+{
+     "Metrics":"Precision",
+      "Range":0.78,
+      "Features":"Filename,Method name,Exception",
+    "Classification":"Top 5"
+   },
+{
+     "Metrics":"Recall",
+      "Range":0.93,
+      "Features":"Filename,Method name,Exception",
+    "Classification":"Top 5"
+   },
+{
+     "Metrics":"F1 Score",
+      "Range":0.85,
+      "Features":"Filename,Method name,Exception",
+    "Classification":"Top 5"
+   },
+{
+     "Metrics":"Accuracy",
+      "Range":0.76,
+      "Features":"Filename,Method name,Exception",
+    "Classification":"Top 5"
+   },
+ {
+      "Metrics":"Precision",
+      "Range":0.76,
+      "Features":"Filename",
+      "Classification":"Top 10"
+   },
+   {
+     "Metrics":"Recall",
+      "Range":0.95,
+     "Features":"Filename",
+     "Classification":"Top 10"
+   },
+   {
+      "Metrics":"F1 Score",
+      "Range":0.85,
+      "Features":"Filename",
+      "Classification":"Top 10"
+   },
+   {
+     "Metrics":"Accuracy",
+      "Range":0.75,
+      "Features":"Filename",
+      "Classification":"Top 10"
+   },
+  {
+     "Metrics":"Precision",
+      "Range":0.74,
+      "Features":"Filename, Method name",
+    "Classification":"Top 10"
+   },
+  {
+     "Metrics":"Recall",
+      "Range":0.96,
+       "Features":"Filename, Method name",
+    "Classification":"Top 10"
+   },
+  {
+     "Metrics":"F1 Score",
+      "Range":0.84,
+       "Features":"Filename, Method name",
+    "Classification":"Top 10"
+   },
+  {
+     "Metrics":"Accuracy",
+      "Range":0.72,
+      "Features":"Filename, Method name",
+    "Classification":"Top 10"
+   },
+{
+     "Metrics":"Precision",
+      "Range":0.8,
+      "Features":"Filename, Exception",
+    "Classification":"Top 10"
+   },
+{
+     "Metrics":"Recall",
+      "Range":0.94,
+      "Features":"Filename, Exception",
+    "Classification":"Top 10"
+   },
+{
+     "Metrics":"F1 Score",
+      "Range":0.86,
+      "Features":"Filename, Exception",
+    "Classification":"Top 10"
+   },
+{
+     "Metrics":"Accuracy",
+      "Range":0.78,
+      "Features":"Filename, Exception",
+    "Classification":"Top 10"
+   },
+{
+     "Metrics":"Precision",
+      "Range":0.75,
+      "Features":"Filename,Method name,Exception",
+    "Classification":"Top 10"
+   },
+{
+     "Metrics":"Recall",
+      "Range":0.97,
+      "Features":"Filename,Method name,Exception",
+    "Classification":"Top 10"
+   },
+{
+     "Metrics":"F1 Score",
+      "Range":0.84,
+      "Features":"Filename,Method name,Exception",
+    "Classification":"Top 10"
+   },
+{
+     "Metrics":"Accuracy",
+      "Range":0.74,
+      "Features":"Filename,Method name,Exception",
+    "Classification":"Top 10"
+   },
+  
+]

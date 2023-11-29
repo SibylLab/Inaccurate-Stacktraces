@@ -1,0 +1,48 @@
+******************************
+cassandra_top10.csv
+Filename, 
+Precision :0.65
+Recall :0.89
+F1 Score :0.75
+Accuracy :0.64
+247
+822
+191
+1542
+******************************
+******************************
+cassandra_top10.csv
+Filename, Method name, 
+Precision :0.64
+Recall :0.88
+F1 Score :0.74
+Accuracy :0.63
+231
+838
+211
+1522
+******************************
+******************************
+cassandra_top10.csv
+Filename, Exception, 
+Precision :0.7
+Recall :0.9
+F1 Score :0.78
+Accuracy :0.69
+390
+679
+177
+1556
+******************************
+******************************
+cassandra_top10.csv
+Filename, Method name, Exception, 
+Precision :0.67
+Recall :0.89
+F1 Score :0.77
+Accuracy :0.67
+328
+741
+197
+1536
+******************************

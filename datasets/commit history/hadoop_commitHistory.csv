@@ -1,0 +1,196 @@
+Bug ID,Commit Files
+HADOOP-6172,"* e5ea0ce4a6a05bf3585f71ad108a3bc4bfe35ef1 HADOOP-6172. Fix jar file names in hadoop-config.sh and include ${build.src} as a part of the source list in build.xml.  Contributed by Hong Tang
+  CHANGES.txt
+  bin/hadoop-config.sh
+  build.xml"
+HADOOP-6177,"* d70dd1a2df60fc85fdb42b105be81249baa38fc1 HADOOP-6177. FSInputChecker.getPos() would return position greater than the file size. Contributed by Hong Tang.
+  CHANGES.txt
+  src/java/org/apache/hadoop/fs/FSInputChecker.java
+  src/test/core/org/apache/hadoop/fs/TestChecksumFileSystem.java
+  src/test/core/org/apache/hadoop/fs/TestLocalFileSystem.java"
+HADOOP-6180,"* 09d826ebed0394d80dd24432a3bbf894efe46265 HADOOP-6180. NameNode slowed down when many files with same filename were moved to Trash. Contributed by Boris Shkolnik.
+  CHANGES.txt
+  src/java/org/apache/hadoop/fs/Trash.java
+  src/test/core/org/apache/hadoop/fs/TestTrash.java"
+HADOOP-6257,"* 7ee09e0939b131fe5acc13906c613265ab8a9548 HADOOP-6257. Two TestFileSystem classes are confusing hadoop-hdfs-hdfwithmr. Contributed by Philip Zeyliger.
+  CHANGES.txt
+  src/test/core/org/apache/hadoop/fs/TestFileSystemCaching.java"
+HADOOP-6281,"* 9de98c42cb68f5bf92a16653f2e97b6e24896e5f HADOOP-6281. Avoid null pointer exceptions when the jsps don't have paramaters (omalley)
+  CHANGES.txt
+  src/java/org/apache/hadoop/http/HtmlQuoting.java
+  src/test/core/org/apache/hadoop/http/TestHtmlQuoting.java"
+HADOOP-6283,"* 710d5177685529c95b49eac02b7cc25a084d6b5f HADOOP-6283. Improve the exception messages thrown by FileUtil$HardLink.getLinkCount(..).
+  CHANGES.txt
+  src/java/org/apache/hadoop/fs/FileUtil.java"
+HADOOP-6285,"* 2031231edbecdcdfdb0c00e92303efdb77760073 HADOOP-6285. Fix the result type of the getParameterMap method in the HttpServer.QuotingInputFilter. (omalley)
+  CHANGES.txt
+  src/java/org/apache/hadoop/http/HttpServer.java
+  src/test/core/org/apache/hadoop/http/TestHttpServer.java"
+HADOOP-6327,"* 4f4c74f76e0f253936f360bc4d65b3d1fb41cb4d HADOOP-6327. FileContext tests should not use /tmp and should clean up files.  Contributed by Sanjay Radia
+  CHANGES.txt
+  src/test/core/org/apache/hadoop/fs/FileContextCreateMkdirBaseTest.java
+  src/test/core/org/apache/hadoop/fs/FileContextMainOperationsBaseTest.java"
+HADOOP-6386,"* 929e91a08c5387c692ed3257361190b83d72f2e9 HADOOP-6386. NameNode's HttpServer can't instantiate InetSocketAddress: IllegalArgumentException is thrown. Contributed by Konstantin Boudnik.
+  CHANGES.txt
+  src/java/org/apache/hadoop/http/HttpServer.java"
+HADOOP-6452,"* cc2f077d437139e79052fbafa37a2065f5a1bd1d HADOOP-6452 Hadoop JSP pages don't work under a security manager
+  src/java/org/apache/hadoop/security/authorize/ConfiguredPolicy.java
+  src/test/core/org/apache/hadoop/security/authorize/TestConfiguredPolicy.java"
+HADOOP-6558,"* 50dcc335be3fd1bdf8400775556eb491a445a370 HADOOP-6558. Return null in HarFileSystem.getFileChecksum(..) since no checksum algorithm is implemented.
+  CHANGES.txt
+  src/java/org/apache/hadoop/fs/HarFileSystem.java
+  src/test/core/org/apache/hadoop/fs/TestHarFileSystem.java"
+HADOOP-6663,"* 4be1688c53f9b6ee23dbf5c05ef0b5c762c8b629 HADOOP-6663.  BlockDecompressorStream get EOF exception when decompressing the file compressed from empty file.  Contributed by Kang Xiao.
+  CHANGES.txt
+  src/java/org/apache/hadoop/io/compress/BlockDecompressorStream.java
+  src/test/core/org/apache/hadoop/io/compress/TestBlockDecompressorStream.java
+* 3d27eaad25a999c403216107a95de9dd06143361 Reverting HADOOP-6663.
+| CHANGES.txt
+| src/java/org/apache/hadoop/io/compress/BlockDecompressorStream.java
+| src/test/core/org/apache/hadoop/io/compress/TestBlockDecompressorStream.java
+* 17f9e57f7cb4333e4a7e6ceb27ae2289e6b7ef5a HADOOP-6663.  BlockDecompressorStream get EOF exception when decompressing the file compressed from empty file.  Contributed by Kang Xiao.
+  CHANGES.txt
+  src/java/org/apache/hadoop/io/compress/BlockDecompressorStream.java
+  src/test/core/org/apache/hadoop/io/compress/TestBlockDecompressorStream.java"
+HADOOP-6747,"* aecf7afba68ec27f1c5aafec05699d2e6cd151b6 HADOOP-6747. TestNetUtils fails on Mac OS X (Todd Lipcon via jghoman)
+  CHANGES.txt
+  src/test/core/org/apache/hadoop/net/TestNetUtils.java"
+HADOOP-6762,"* 7ba12a628ad8de8c3e00afb45228b3e9d82c129b HADOOP-6762. Exception while doing RPC I/O closes channel. Contributed by Sam Rash and Todd Lipcon.
+  hadoop-common-project/hadoop-common/CHANGES.txt
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/ipc/Client.java
+  hadoop-common-project/hadoop-common/src/test/java/org/apache/hadoop/ipc/TestIPC.java
+  hadoop-common-project/hadoop-common/src/test/java/org/apache/hadoop/ipc/TestRPC.java"
+HADOOP-6941,"* 04cc1d614d0783ba3302f9de239d5c3b41f2b2db HADOOP-8251. Fix SecurityUtil.fetchServiceTicket after HADOOP-6941. Contributed by Todd Lipcon.
+  hadoop-common-project/hadoop-common/CHANGES.txt
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/security/SecurityUtil.java
+* 3f77993f9d9effd1f5612f0788aa6551d0d621dd HADOOP-6941. Forgot to add a License header
+| hadoop-common-project/hadoop-auth/src/main/java/org/apache/hadoop/security/authentication/util/KerberosUtil.java
+* 2a0147f8f698f22e61281c06691107e24a2f139c HADOOP-6941. Adds support for building Hadoop with IBM's JDK. Contributed by Stephen Watt, Eli Collins and Devaraj Das.
+  hadoop-common-project/hadoop-auth/src/main/java/org/apache/hadoop/security/authentication/client/KerberosAuthenticator.java
+  hadoop-common-project/hadoop-auth/src/main/java/org/apache/hadoop/security/authentication/server/KerberosAuthenticationHandler.java
+  hadoop-common-project/hadoop-auth/src/main/java/org/apache/hadoop/security/authentication/util/KerberosName.java
+  hadoop-common-project/hadoop-auth/src/main/java/org/apache/hadoop/security/authentication/util/KerberosUtil.java
+  hadoop-common-project/hadoop-auth/src/test/java/org/apache/hadoop/security/authentication/KerberosTestUtils.java
+  hadoop-common-project/hadoop-auth/src/test/java/org/apache/hadoop/security/authentication/server/TestKerberosAuthenticationHandler.java
+  hadoop-common-project/hadoop-common/CHANGES.txt
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/security/HadoopKerberosName.java
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/security/SecurityUtil.java
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/security/UserGroupInformation.java"
+HADOOP-6947,"* da234df25d14c9925ff439142de3a52c77d6fec8 HADOOP-6947.  Kerberos relogin should set refreshKrb5Config to true.  Contributed by Todd Lipcon.
+  CHANGES.txt
+  src/java/org/apache/hadoop/security/UserGroupInformation.java
+  src/test/core/org/apache/hadoop/security/ManualTestKeytabLogins.java"
+HADOOP-6989,"* 9a8a10a234e0fd8d49f00e04e61570843aca95b0 Fixing attribution for HADOOP-6989 in CHANGES.txt
+| CHANGES.txt
+* 4bb06fbd0a73484f025b1c254c9b44ddee9b19af HADOOP-6989. Correct the parameter for SetFile to set the value type for SetFile to be NullWritable instead of the key. (jghoman via omalley)
+  CHANGES.txt
+  src/java/org/apache/hadoop/io/SetFile.java"
+HADOOP-7045,"* 82c5214ab1bc7740027a860b4689d330856eb498 HADOOP-7045. TestDU fails on systems with local file systems with extended attributes. Contributed by Eli Collins
+  CHANGES.txt
+  src/test/core/org/apache/hadoop/fs/TestDU.java"
+HADOOP-7126,"* e82df7e7f7360942ddc99b542c465c4716b2e775 HADOOP-7126. Fix file permission setting for RawLocalFileSystem on Windows. Contributed by Po Cheung.
+  CHANGES.txt
+  src/java/org/apache/hadoop/fs/RawLocalFileSystem.java"
+HADOOP-7327,"* ff0511019cd75a113a10940ef09b0d141a77c91a HADOOP-7327. FileSystem.listStatus() throws NullPointerException instead of IOException upon access permission failure. Contributed by Matt Foley.
+  common/CHANGES.txt
+  common/src/java/org/apache/hadoop/fs/FileSystem.java
+  common/src/test/core/org/apache/hadoop/fs/FSMainOperationsBaseTest.java"
+HADOOP-7523,"* 8dc420ba36e7cf7b1e9e0fa6a3ab67043bd911b3 HADOOP-7523. Test org.apache.hadoop.fs.TestFilterFileSystem fails due to java.lang.NoSuchMethodException. Contributed by John Lee.
+  hadoop-common/CHANGES.txt
+  hadoop-common/src/test/java/org/apache/hadoop/fs/TestFilterFileSystem.java"
+HADOOP-7563,"* bb0005cfec5fd2861600ff5babd259b48ba18b63 HADOOP-7563. Setup HADOOP_HDFS_HOME, HADOOP_MAPRED_HOME and classpath correction. Contributed by Eric Yang.
+  hadoop-assemblies/src/main/resources/assemblies/hadoop-dist.xml
+  hadoop-common/CHANGES.txt
+  hadoop-common/src/main/bin/hadoop
+  hadoop-common/src/main/bin/hadoop-config.sh
+  hadoop-common/src/main/bin/hadoop-daemon.sh
+  hadoop-common/src/main/bin/hadoop-daemons.sh
+  hadoop-common/src/main/bin/rcc
+  hadoop-common/src/main/bin/slaves.sh
+  hadoop-common/src/main/bin/start-all.sh
+  hadoop-common/src/main/bin/stop-all.sh
+  hadoop-hdfs/src/main/bin/distribute-exclude.sh
+  hadoop-hdfs/src/main/bin/hdfs
+  hadoop-hdfs/src/main/bin/hdfs-config.sh
+  hadoop-hdfs/src/main/bin/refresh-namenodes.sh
+  hadoop-hdfs/src/main/bin/start-balancer.sh
+  hadoop-hdfs/src/main/bin/start-dfs.sh
+  hadoop-hdfs/src/main/bin/start-secure-dns.sh
+  hadoop-hdfs/src/main/bin/stop-balancer.sh
+  hadoop-hdfs/src/main/bin/stop-dfs.sh
+  hadoop-hdfs/src/main/bin/stop-secure-dns.sh
+  hadoop-mapreduce/pom.xml"
+HADOOP-7606,"* 6c33846767599bc7565b187bea8420d850810fcf HADOOP-7606. Upgrade Jackson to version 1.7.1 to match the version required by Jersey (Alejandro Abdelnur via atm)
+  hadoop-common-project/hadoop-common/CHANGES.txt
+  hadoop-project/pom.xml"
+HADOOP-7629,"* eb3a692a57614065dd441c16430326ab63df1dc7 HDFS-2332. Add test for HADOOP-7629 (using an immutable FsPermission object as an RPC parameter fails). Contributed by Todd Lipcon.
+  hadoop-hdfs-project/hadoop-hdfs/CHANGES.txt
+  hadoop-hdfs-project/hadoop-hdfs/src/test/java/org/apache/hadoop/hdfs/TestDFSPermission.java
+* 29eadf1b8f7eb75192cc73de927832ac71018649 HADOOP-7629. Allow immutable FsPermission objects to be used as IPC parameters. Contributed by Todd Lipcon.
+  hadoop-common-project/hadoop-common/CHANGES.txt
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/fs/permission/FsPermission.java"
+HADOOP-7771,"* 8f9661da4823bfbb243e430252ec1bb5780ecbfc HADOOP-7771. FsShell -copyToLocal, -get, etc. commands throw NPE if the destination directory does not exist.  Contributed by John George and Daryn Sharp
+  hadoop-common-project/hadoop-common/CHANGES.txt
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/fs/shell/Command.java
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/fs/shell/CommandWithDestination.java
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/fs/shell/CopyCommands.java
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/fs/shell/PathData.java"
+HADOOP-7859,"* cb5c6c90c4c835a5f263629d938ed42a925bd0c2 HADOOP-7859. TestViewFsHdfs.testgetFileLinkStatus is failing an assert. Contributed by Eli Collins
+  hadoop-common-project/hadoop-common/CHANGES.txt
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/fs/FileContext.java"
+HADOOP-7902,"* 66fce20802653ebed492024b01441644e028036a HADOOP-7902. skipping name rules setting (if already set) should be done on UGI initialization only. (tucu)
+  hadoop-common-project/hadoop-common/CHANGES.txt
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/security/HadoopKerberosName.java
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/security/UserGroupInformation.java"
+HADOOP-7988,"* ed6a73140e2608ade7cf64518a937858813e4637 HADOOP-7988. Upper case in hostname part of the principals doesn't work with kerberos.
+  hadoop-common-project/hadoop-common/CHANGES.txt
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/security/SecurityUtil.java
+  hadoop-common-project/hadoop-common/src/test/java/org/apache/hadoop/security/TestSecurityUtil.java"
+HADOOP-7999,"* e6ca182a261be9b9164dbc35b77404961cb18316 HADOOP-7999. ""hadoop archive"" fails with ClassNotFoundException. (Jason Lowe via mahadev)
+  hadoop-common-project/hadoop-common/CHANGES.txt
+  hadoop-common-project/hadoop-common/src/main/bin/hadoop-config.sh"
+HADOOP-8006,"* f8a245c2731ab09b31d9024496d0f475597504ab HADOOP-8006  TestFSInputChecker is failing in trunk. (Daryn Sharp via bobby)
+  hadoop-common-project/hadoop-common/CHANGES.txt
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/fs/ChecksumFileSystem.java"
+HADOOP-8031,"* 11312adedb09886e94241aabd973064764b6d857 HADOOP-8749. HADOOP-8031 changed the way in which relative xincludes are handled in Configuration. (ahmed via tucu)
+  hadoop-common-project/hadoop-common/CHANGES.txt
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/conf/Configuration.java
+  hadoop-common-project/hadoop-common/src/test/java/org/apache/hadoop/conf/TestConfiguration.java
+* bbf1f55bee92976b101956fe30467619ca274ac8 HADOOP-8031. Configuration class fails to find embedded .jar resources; should use URL.openStream() (genman via tucu)
+  hadoop-common-project/hadoop-common/CHANGES.txt
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/conf/Configuration.java"
+HADOOP-8054,"* 089714f6dc7feffbdae79faeadad58a3bac6ea47 HADOOP-8054. Committing to 0.23.1.
+  hadoop-common-project/hadoop-common/CHANGES.txt
+* 1425c65b5e2cc7f57bf0ac51e4b6bb546736b601 HADOOP-8054. NPE with FilterFileSystem (Daryn Sharp via bobby)
+  hadoop-common-project/hadoop-common/CHANGES.txt
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/fs/FilterFileSystem.java
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/fs/LocalFileSystem.java
+  hadoop-common-project/hadoop-common/src/test/java/org/apache/hadoop/fs/TestFilterFileSystem.java"
+HADOOP-8110,"* 3c2101ae4a65af4b68a08651c27966490e8fbef0 HADOOP-8110. Fix trash checkpoint collisions (Jason Lowe via daryn)
+  hadoop-common-project/hadoop-common/CHANGES.txt
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/fs/TrashPolicyDefault.java"
+HADOOP-8129,"* f45556698210cd8a95a906fd8b841996076955a6 HADOOP-8129. ViewFileSystemTestSetup setupForViewFileSystem is erring (Ahmed Radwan and Ravi Prakash via bobby)
+  hadoop-common-project/hadoop-common/CHANGES.txt
+  hadoop-common-project/hadoop-common/src/test/java/org/apache/hadoop/fs/viewfs/ViewFileSystemTestSetup.java"
+HADOOP-8202,"* 1427468a72244e97984c6e9b3eb3e8d9c2d0c025 HDFS-3156. TestDFSHAAdmin is failing post HADOOP-8202. Contributed by Aaron T. Myers.
+  hadoop-hdfs-project/hadoop-hdfs/CHANGES.txt
+  hadoop-hdfs-project/hadoop-hdfs/src/test/java/org/apache/hadoop/hdfs/tools/TestDFSHAAdmin.java
+* 600e327a56593d84bb85ad0707d2d534a3653f57 HADOOP-8202. RPC stopProxy() does not close the proxy correctly. Contributed by Hari Mankude.
+  hadoop-common-project/hadoop-common/CHANGES.txt
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/ha/HealthMonitor.java
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/ipc/RPC.java
+  hadoop-common-project/hadoop-common/src/test/java/org/apache/hadoop/ipc/TestRPC.java"
+HADOOP-8225,"* 94c69f2c820b49066cdfadc7aef0d9d2d5a451cb HDFS-3852. TestHftpDelegationToken is broken after HADOOP-8225 (daryn)
+  hadoop-hdfs-project/hadoop-hdfs/CHANGES.txt
+  hadoop-hdfs-project/hadoop-hdfs/src/test/java/org/apache/hadoop/hdfs/TestHftpDelegationToken.java
+* aeb364d8b57f4de79d3489bef2071cea9c0c840e HADOOP-8225. DistCp fails when invoked by Oozie (daryn via bobby)
+  hadoop-common-project/hadoop-common/CHANGES.txt
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/security/Credentials.java
+  hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/security/UserGroupInformation.java
+  hadoop-common-project/hadoop-common/src/test/java/org/apache/hadoop/security/TestCredentials.java
+  hadoop-common-project/hadoop-common/src/test/java/org/apache/hadoop/security/TestUserGroupInformation.java
+  hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-app/src/main/java/org/apache/hadoop/mapred/YarnChild.java
+  hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-app/src/main/java/org/apache/hadoop/mapreduce/v2/app/MRAppMaster.java
+  hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapreduce/Job.java
+  hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/test/java/org/apache/hadoop/mapreduce/TestJob.java
+  hadoop-tools/hadoop-distcp/src/main/java/org/apache/hadoop/tools/DistCp.java"
